@@ -1,0 +1,377 @@
+builtins.c: Error!
+Error: SPACE_REPLACE_TAB    (line:  17, col:   9):	Found space when expecting tab
+Error: TOO_FEW_TAB          (line:  37, col:  54):	Missing tabs for indent level
+Error: EMPTY_LINE_FUNCTION  (line:  37, col:  55):	Empty line in function
+Error: SPACE_BEFORE_FUNC    (line:  60, col:   4):	space before function name
+Error: SPACE_BEFORE_FUNC    (line:  79, col:   5):	space before function name
+builtin_cd_pwd.c: Error!
+Error: SPACE_BEFORE_FUNC    (line:  15, col:   5):	space before function name
+Error: SPACE_REPLACE_TAB    (line:  17, col:   9):	Found space when expecting tab
+Error: SPACE_EMPTY_LINE     (line:  18, col:   1):	Space on empty line
+Error: CONSECUTIVE_NEWLINES (line:  22, col:   1):	Consecutive newlines
+Error: SPACE_REPLACE_TAB    (line:  25, col:   8):	Found space when expecting tab
+Error: CONSECUTIVE_NEWLINES (line:  37, col:   1):	Consecutive newlines
+Error: SPACE_BEFORE_FUNC    (line:  38, col:   5):	space before function name
+Error: SPACE_REPLACE_TAB    (line:  40, col:   9):	Found space when expecting tab
+Error: TOO_FEW_TAB          (line:  41, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  41, col:   5):	Found space when expecting tab
+Error: SPACE_REPLACE_TAB    (line:  41, col:   8):	Found space when expecting tab
+Error: MISALIGNED_VAR_DECL  (line:  41, col:   9):	Misaligned variable declaration
+Error: DECL_ASSIGN_LINE     (line:  41, col:  16):	Declaration and assignation on a single line
+Error: SPACE_EMPTY_LINE     (line:  42, col:   1):	Space on empty line
+Error: LINE_TOO_LONG        (line:  43, col:  52):	line too long
+Error: WRONG_SCOPE_COMMENT  (line:  43, col:  52):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  43, col:  52):	Comment is invalid in this scope
+Error: LINE_TOO_LONG        (line:  43, col: 119):	line too long
+Error: LINE_TOO_LONG        (line:  46, col:   1):	line too long
+Error: WRONG_SCOPE_COMMENT  (line:  46, col:   9):	Comment is invalid in this scope
+Error: LINE_TOO_LONG        (line:  46, col:  90):	line too long
+Error: SPACE_AFTER_KW       (line:  47, col:   9):	Missing space after keyword
+Error: LINE_TOO_LONG        (line:  53, col:   1):	line too long
+Error: WRONG_SCOPE_COMMENT  (line:  53, col:   9):	Comment is invalid in this scope
+Error: LINE_TOO_LONG        (line:  53, col:  89):	line too long
+Error: TOO_FEW_TAB          (line:  55, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  55, col:   5):	Found space when expecting tab
+Error: WRONG_SCOPE_COMMENT  (line:  55, col:  10):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  55, col:  10):	Comment is invalid in this scope
+Error: TOO_FEW_TAB          (line:  57, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  57, col:   9):	Found space when expecting tab
+Error: SPACE_AFTER_KW       (line:  58, col:   9):	Missing space after keyword
+Error: TOO_FEW_TAB          (line:  59, col:   1):	Missing tabs for indent level
+Error: SPACE_EMPTY_LINE     (line:  59, col:   5):	Space on empty line
+Error: CONSECUTIVE_SPC      (line:  60, col:  42):	Two or more consecutives spaces
+builtin_echo.c: Error!
+Error: WRONG_SCOPE_COMMENT  (line:  49, col:  47):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  49, col:  47):	Comment is invalid in this scope
+builtin_exit.c: Error!
+Error: SPACE_REPLACE_TAB    (line:  17, col:   8):	Found space when expecting tab
+Error: TOO_FEW_TAB          (line:  23, col:   1):	Missing tabs for indent level
+Error: WRONG_SCOPE_COMMENT  (line:  24, col:   9):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  25, col:   9):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  26, col:   9):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  30, col:   9):	Comment is invalid in this scope
+Error: EMPTY_LINE_FUNCTION  (line:  33, col:   1):	Empty line in function
+dict.c: Error!
+Error: SPACE_BEFORE_FUNC    (line:   3, col:  14):	space before function name
+Error: SPACE_REPLACE_TAB    (line:   5, col:  18):	Found space when expecting tab
+Error: SPACE_REPLACE_TAB    (line:   6, col:   8):	Found space when expecting tab
+Error: MISALIGNED_VAR_DECL  (line:   6, col:   9):	Misaligned variable declaration
+Error: WRONG_SCOPE_COMMENT  (line:  13, col:  42):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  13, col:  42):	Comment is invalid in this scope
+Error: EMPTY_LINE_FUNCTION  (line:  15, col:   1):	Empty line in function
+Error: RETURN_PARENTHESIS   (line:  16, col:  12):	Return value must be in parenthesis
+Error: SPACE_REPLACE_TAB    (line:  21, col:  11):	Found space when expecting tab
+Error: SPACE_REPLACE_TAB    (line:  22, col:   8):	Found space when expecting tab
+Error: MISALIGNED_VAR_DECL  (line:  22, col:   9):	Misaligned variable declaration
+Error: WRONG_SCOPE_COMMENT  (line:  30, col:   9):	Comment is invalid in this scope
+Error: TOO_MANY_TABS_FUNC   (line:  37, col:   5):	extra tabs before function name
+Error: TOO_MANY_TABS_FUNC   (line:  51, col:   5):	extra tabs before function name
+Error: TOO_MANY_TABS_FUNC   (line:  64, col:   5):	extra tabs before function name
+Error: TOO_MANY_FUNCS       (line:  78, col:   1):	Too many functions in file
+Error: TOO_MANY_FUNCS       (line:  92, col:   1):	Too many functions in file
+Error: SPACE_REPLACE_TAB    (line:  94, col:  18):	Found space when expecting tab
+Error: SPACE_REPLACE_TAB    (line:  95, col:  11):	Found space when expecting tab
+Error: MISALIGNED_VAR_DECL  (line:  95, col:  12):	Misaligned variable declaration
+Error: EMPTY_LINE_FUNCTION  (line: 103, col:   1):	Empty line in function
+Error: WRONG_SCOPE_COMMENT  (line: 104, col:   5):	Comment is invalid in this scope
+Error: EMPTY_LINE_FUNCTION  (line: 105, col:   1):	Empty line in function
+Error: EMPTY_LINE_FUNCTION  (line: 110, col:   1):	Empty line in function
+Error: EMPTY_LINE_FUNCTION  (line: 114, col:   1):	Empty line in function
+Error: WRONG_SCOPE_COMMENT  (line: 115, col:   5):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line: 116, col:   5):	Comment is invalid in this scope
+Error: TOO_MANY_FUNCS       (line: 119, col:   1):	Too many functions in file
+Error: SPACE_REPLACE_TAB    (line: 121, col:   8):	Found space when expecting tab
+Error: SPACE_REPLACE_TAB    (line: 122, col:   8):	Found space when expecting tab
+Error: SPACE_AFTER_KW       (line: 135, col:   5):	Missing space after keyword
+Error: SPC_BFR_PAR          (line: 135, col:  11):	Missing space before parenthesis (brace/bracket)
+Error: TOO_MANY_FUNCS       (line: 138, col:   1):	Too many functions in file
+Error: SPACE_REPLACE_TAB    (line: 140, col:   8):	Found space when expecting tab
+Error: SPACE_REPLACE_TAB    (line: 141, col:   8):	Found space when expecting tab
+Error: SPACE_AFTER_KW       (line: 153, col:   5):	Missing space after keyword
+Error: SPC_BFR_PAR          (line: 153, col:  11):	Missing space before parenthesis (brace/bracket)
+Error: TOO_MANY_FUNCS       (line: 156, col:   1):	Too many functions in file
+Error: SPACE_REPLACE_TAB    (line: 158, col:   8):	Found space when expecting tab
+Error: SPACE_REPLACE_TAB    (line: 159, col:   8):	Found space when expecting tab
+Error: SPACE_AFTER_KW       (line: 171, col:   5):	Missing space after keyword
+Error: SPC_BFR_PAR          (line: 171, col:  11):	Missing space before parenthesis (brace/bracket)
+Error: TOO_MANY_FUNCS       (line: 174, col:   1):	Too many functions in file
+Error: SPACE_REPLACE_TAB    (line: 176, col:   8):	Found space when expecting tab
+Error: TOO_MANY_FUNCS       (line: 188, col:   1):	Too many functions in file
+Error: SPACE_BEFORE_FUNC    (line: 188, col:   7):	space before function name
+Error: MISALIGNED_VAR_DECL  (line: 191, col:  13):	Misaligned variable declaration
+Error: TOO_MANY_FUNCS       (line: 207, col:   1):	Too many functions in file
+Error: TOO_MANY_TABS_FUNC   (line: 207, col:   5):	extra tabs before function name
+Error: SPACE_AFTER_KW       (line: 216, col:   5):	Missing space after keyword
+Error: SPC_BFR_PAR          (line: 216, col:  11):	Missing space before parenthesis (brace/bracket)
+Error: TOO_MANY_FUNCS       (line: 219, col:   1):	Too many functions in file
+Error: SPACE_BEFORE_FUNC    (line: 219, col:   5):	space before function name
+Error: SPACE_REPLACE_TAB    (line: 221, col:  11):	Found space when expecting tab
+Error: TOO_MANY_FUNCS       (line: 229, col:   1):	Too many functions in file
+Error: CONSECUTIVE_NEWLINES (line: 244, col:   1):	Consecutive newlines
+envp.c: Error!
+Error: SPACE_BEFORE_FUNC    (line:   3, col:   5):	space before function name
+Error: SPACE_REPLACE_TAB    (line:   5, col:   9):	Found space when expecting tab
+Error: NL_AFTER_VAR_DECL    (line:   6, col:   1):	Variable declarations must be followed by a newline
+Error: SPACE_BEFORE_FUNC    (line:  15, col:   5):	space before function name
+Error: SPACE_REPLACE_TAB    (line:  17, col:   9):	Found space when expecting tab
+Error: NL_AFTER_VAR_DECL    (line:  18, col:   1):	Variable declarations must be followed by a newline
+Error: SPACE_BEFORE_FUNC    (line:  26, col:   5):	space before function name
+Error: SPACE_REPLACE_TAB    (line:  28, col:   8):	Found space when expecting tab
+Error: SPACE_REPLACE_TAB    (line:  29, col:   9):	Found space when expecting tab
+Error: MISALIGNED_VAR_DECL  (line:  29, col:  10):	Misaligned variable declaration
+Error: CONSECUTIVE_SPC      (line:  35, col:  27):	Two or more consecutives spaces
+Error: TOO_MANY_TABS_FUNC   (line:  51, col:   5):	extra tabs before function name
+Error: EMPTY_LINE_FUNCTION  (line:  55, col:   1):	Empty line in function
+Error: WRONG_SCOPE_COMMENT  (line:  59, col:   9):	Comment is invalid in this scope
+Error: TOO_MANY_FUNCS       (line:  64, col:   1):	Too many functions in file
+Error: TOO_MANY_TABS_FUNC   (line:  64, col:   5):	extra tabs before function name
+Error: WRONG_SCOPE_COMMENT  (line:  74, col:   9):	Comment is invalid in this scope
+Error: TOO_MANY_FUNCS       (line:  79, col:   1):	Too many functions in file
+Error: SPACE_BEFORE_FUNC    (line:  79, col:   5):	space before function name
+Error: EMPTY_LINE_FUNCTION  (line:  86, col:   1):	Empty line in function
+Error: EMPTY_LINE_FUNCTION  (line:  91, col:   1):	Empty line in function
+Error: CONSECUTIVE_NEWLINES (line:  92, col:   1):	Consecutive newlines
+Error: EMPTY_LINE_FUNCTION  (line:  92, col:   1):	Empty line in function
+Error: EMPTY_LINE_FUNCTION  (line:  98, col:   1):	Empty line in function
+Error: CONSECUTIVE_NEWLINES (line: 125, col:   1):	Consecutive newlines
+Error: CONSECUTIVE_NEWLINES (line: 126, col:   1):	Consecutive newlines
+files.c: Error!
+Error: SPACE_BEFORE_FUNC    (line:   3, col:   4):	space before function name
+Error: SPACE_BEFORE_FUNC    (line:  13, col:   5):	space before function name
+Error: SPACE_REPLACE_TAB    (line:  15, col:   8):	Found space when expecting tab
+Error: SPACE_BEFORE_FUNC    (line:  26, col:   5):	space before function name
+Error: SPACE_REPLACE_TAB    (line:  28, col:  16):	Found space when expecting tab
+Error: SPACE_BEFORE_FUNC    (line:  37, col:   4):	space before function name
+Error: SPACE_REPLACE_TAB    (line:  39, col:   8):	Found space when expecting tab
+Error: SPACE_REPLACE_TAB    (line:  40, col:   9):	Found space when expecting tab
+Error: MISALIGNED_VAR_DECL  (line:  40, col:  10):	Misaligned variable declaration
+Error: SPACE_REPLACE_TAB    (line:  58, col:  16):	Found space when expecting tab
+Error: SPACE_AFTER_KW       (line:  60, col:   5):	Missing space after keyword
+Error: SPC_BFR_PAR          (line:  60, col:   7):	Missing space before parenthesis (brace/bracket)
+Error: SPACE_AFTER_KW       (line:  62, col:   5):	Missing space after keyword
+Error: SPC_BFR_PAR          (line:  62, col:   7):	Missing space before parenthesis (brace/bracket)
+Error: SPACE_AFTER_KW       (line:  64, col:   9):	Missing space after keyword
+Error: SPC_BFR_PAR          (line:  64, col:  15):	Missing space before parenthesis (brace/bracket)
+Error: SPACE_AFTER_KW       (line:  66, col:   5):	Missing space after keyword
+Error: SPC_BFR_PAR          (line:  66, col:  11):	Missing space before parenthesis (brace/bracket)
+Error: TOO_MANY_FUNCS       (line:  69, col:   1):	Too many functions in file
+Error: SPACE_BEFORE_FUNC    (line:  69, col:   5):	space before function name
+Error: SPACE_REPLACE_TAB    (line:  71, col:   9):	Found space when expecting tab
+Error: SPACE_REPLACE_TAB    (line:  72, col:   9):	Found space when expecting tab
+Error: SPACE_REPLACE_TAB    (line:  73, col:   9):	Found space when expecting tab
+Error: SPACE_REPLACE_TAB    (line:  74, col:   8):	Found space when expecting tab
+Error: MISALIGNED_VAR_DECL  (line:  74, col:   9):	Misaligned variable declaration
+Error: WRONG_SCOPE_COMMENT  (line:  92, col:   5):	Comment is invalid in this scope
+Error: SPACE_AFTER_KW       (line:  94, col:   9):	Missing space after keyword
+Error: SPC_BFR_PAR          (line:  94, col:  15):	Missing space before parenthesis (brace/bracket)
+Error: TOO_MANY_LINES       (line: 109, col:   1):	Function has more than 25 lines
+Error: TOO_MANY_FUNCS       (line: 111, col:   1):	Too many functions in file
+Error: SPACE_BEFORE_FUNC    (line: 111, col:   5):	space before function name
+Error: SPACE_REPLACE_TAB    (line: 113, col:   8):	Found space when expecting tab
+Error: SPACE_REPLACE_TAB    (line: 114, col:   9):	Found space when expecting tab
+Error: MISALIGNED_VAR_DECL  (line: 114, col:  10):	Misaligned variable declaration
+Error: SPACE_REPLACE_TAB    (line: 115, col:   8):	Found space when expecting tab
+Error: WRONG_SCOPE_COMMENT  (line: 117, col:   5):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line: 118, col:   5):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line: 119, col:   5):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line: 120, col:   5):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line: 121, col:   5):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line: 122, col:   5):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line: 123, col:   5):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line: 124, col:   5):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line: 139, col:   5):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line: 140, col:   5):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line: 141, col:   5):	Comment is invalid in this scope
+Error: TOO_MANY_LINES       (line: 143, col:   1):	Function has more than 25 lines
+heredoc.c: Error!
+Error: SPACE_REPLACE_TAB    (line:  25, col:   8):	Found space when expecting tab
+Error: SPACE_REPLACE_TAB    (line:  26, col:   9):	Found space when expecting tab
+Error: MISALIGNED_VAR_DECL  (line:  26, col:  10):	Misaligned variable declaration
+Error: SPACE_AFTER_KW       (line:  29, col:   5):	Missing space after keyword
+Error: SPC_BFR_PAR          (line:  29, col:  10):	Missing space before parenthesis (brace/bracket)
+libft.h: OK!
+list.c: Error!
+Error: TOO_MANY_TABS_FUNC   (line:  28, col:   5):	extra tabs before function name
+Error: SPACE_REPLACE_TAB    (line:  30, col:   8):	Found space when expecting tab
+Error: SPACE_AFTER_KW       (line:  38, col:   5):	Missing space after keyword
+Error: SPC_BFR_PAR          (line:  38, col:  11):	Missing space before parenthesis (brace/bracket)
+Error: SPACE_REPLACE_TAB    (line:  43, col:  11):	Found space when expecting tab
+Error: SPACE_REPLACE_TAB    (line:  60, col:  11):	Found space when expecting tab
+Error: TOO_MANY_FUNCS       (line:  74, col:   1):	Too many functions in file
+Error: SPACE_AFTER_KW       (line:  76, col:   5):	Missing space after keyword
+Error: SPC_BFR_PAR          (line:  76, col:  10):	Missing space before parenthesis (brace/bracket)
+Error: TOO_MANY_FUNCS       (line:  84, col:   1):	Too many functions in file
+Error: SPACE_REPLACE_TAB    (line:  86, col:   8):	Found space when expecting tab
+Error: SPACE_AFTER_KW       (line:  89, col:   5):	Missing space after keyword
+Error: SPC_BFR_PAR          (line:  89, col:  10):	Missing space before parenthesis (brace/bracket)
+Error: TOO_MANY_FUNCS       (line:  96, col:   1):	Too many functions in file
+Error: SPACE_REPLACE_TAB    (line:  98, col:   8):	Found space when expecting tab
+Error: SPACE_AFTER_KW       (line: 101, col:   5):	Missing space after keyword
+Error: SPC_BFR_PAR          (line: 101, col:  10):	Missing space before parenthesis (brace/bracket)
+Error: CONSECUTIVE_NEWLINES (line: 109, col:   1):	Consecutive newlines
+Error: TOO_MANY_FUNCS       (line: 110, col:   1):	Too many functions in file
+Error: TOO_MANY_FUNCS       (line: 123, col:   1):	Too many functions in file
+Error: SPACE_REPLACE_TAB    (line: 125, col:  11):	Found space when expecting tab
+Error: SPACE_REPLACE_TAB    (line: 126, col:  11):	Found space when expecting tab
+minishell.c: Error!
+Error: LINE_TOO_LONG        (line:  38, col:  83):	line too long
+Error: TOO_MANY_TAB         (line:  43, col:   1):	Extra tabs for indent level
+Error: SPACE_AFTER_KW       (line:  45, col:  13):	Missing space after keyword
+Error: TOO_MANY_TAB         (line:  46, col:   1):	Extra tabs for indent level
+Error: WRONG_SCOPE_COMMENT  (line:  51, col:  13):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  53, col:  13):	Comment is invalid in this scope
+Error: SPACE_AFTER_KW       (line:  58, col:  17):	Missing space after keyword
+Error: TOO_MANY_LINES       (line:  68, col:   1):	Function has more than 25 lines
+minishell.h: Error!
+Error: HEADER_PROT_ALL      (line:  26, col:   1):	Header protection must include all the instructions
+Error: PREPROC_BAD_INDENT   (line:  26, col:   1):	Bad preprocessor indentation
+Error: HEADER_PROT_ALL      (line:  27, col:   1):	Header protection must include all the instructions
+Error: PREPROC_BAD_INDENT   (line:  27, col:   1):	Bad preprocessor indentation
+Error: HEADER_PROT_ALL      (line:  28, col:   1):	Header protection must include all the instructions
+Error: PREPROC_BAD_INDENT   (line:  28, col:   1):	Bad preprocessor indentation
+Error: HEADER_PROT_ALL      (line:  29, col:   1):	Header protection must include all the instructions
+Error: PREPROC_BAD_INDENT   (line:  29, col:   1):	Bad preprocessor indentation
+Error: HEADER_PROT_ALL      (line:  30, col:   1):	Header protection must include all the instructions
+Error: PREPROC_BAD_INDENT   (line:  30, col:   1):	Bad preprocessor indentation
+Error: HEADER_PROT_ALL      (line:  31, col:   1):	Header protection must include all the instructions
+Error: PREPROC_BAD_INDENT   (line:  31, col:   1):	Bad preprocessor indentation
+Error: HEADER_PROT_ALL      (line:  32, col:   1):	Header protection must include all the instructions
+Error: PREPROC_BAD_INDENT   (line:  32, col:   1):	Bad preprocessor indentation
+Error: HEADER_PROT_ALL      (line:  33, col:   1):	Header protection must include all the instructions
+Error: HEADER_PROT_ALL      (line:  34, col:   1):	Header protection must include all the instructions
+Error: HEADER_PROT_ALL      (line:  36, col:   1):	Header protection must include all the instructions
+Error: HEADER_PROT_ALL      (line:  38, col:   1):	Header protection must include all the instructions
+Error: HEADER_PROT_ALL      (line:  39, col:   1):	Header protection must include all the instructions
+Error: HEADER_PROT_ALL      (line:  40, col:   1):	Header protection must include all the instructions
+Error: HEADER_PROT_ALL      (line:  41, col:   1):	Header protection must include all the instructions
+Error: HEADER_PROT_ALL      (line:  44, col:   1):	Header protection must include all the instructions
+Error: HEADER_PROT_ALL      (line:  46, col:   1):	Header protection must include all the instructions
+Error: HEADER_PROT_ALL      (line:  47, col:   1):	Header protection must include all the instructions
+Error: HEADER_PROT_ALL      (line:  48, col:   1):	Header protection must include all the instructions
+Error: HEADER_PROT_ALL      (line:  49, col:   1):	Header protection must include all the instructions
+Error: HEADER_PROT_ALL      (line:  50, col:   1):	Header protection must include all the instructions
+Error: HEADER_PROT_ALL      (line:  51, col:   1):	Header protection must include all the instructions
+Error: HEADER_PROT_ALL      (line:  52, col:   1):	Header protection must include all the instructions
+Error: HEADER_PROT_ALL      (line:  54, col:   1):	Header protection must include all the instructions
+Error: HEADER_PROT_ALL      (line:  55, col:   1):	Header protection must include all the instructions
+Error: HEADER_PROT_ALL      (line:  56, col:   1):	Header protection must include all the instructions
+Error: HEADER_PROT_ALL      (line:  57, col:   1):	Header protection must include all the instructions
+Error: CONSECUTIVE_NEWLINES (line:  60, col:   1):	Consecutive newlines
+Error: HEADER_PROT_ALL      (line:  62, col:   1):	Header protection must include all the instructions
+Error: HEADER_PROT_ALL      (line:  63, col:   1):	Header protection must include all the instructions
+Error: HEADER_PROT_ALL      (line:  64, col:   1):	Header protection must include all the instructions
+Error: HEADER_PROT_ALL      (line:  65, col:   1):	Header protection must include all the instructions
+Error: HEADER_PROT_ALL      (line:  66, col:   1):	Header protection must include all the instructions
+Error: HEADER_PROT_ALL      (line:  67, col:   1):	Header protection must include all the instructions
+Error: HEADER_PROT_ALL      (line:  68, col:   1):	Header protection must include all the instructions
+Error: HEADER_PROT_ALL      (line:  69, col:   1):	Header protection must include all the instructions
+Error: HEADER_PROT_ALL      (line:  70, col:   1):	Header protection must include all the instructions
+Error: HEADER_PROT_ALL      (line:  73, col:   1):	Header protection must include all the instructions
+Error: HEADER_PROT_ALL      (line:  75, col:   1):	Header protection must include all the instructions
+Error: MISALIGNED_FUNC_DECL (line:  75, col:  17):	Misaligned function declaration
+Error: HEADER_PROT_ALL      (line:  76, col:   1):	Header protection must include all the instructions
+Error: HEADER_PROT_ALL      (line:  77, col:   1):	Header protection must include all the instructions
+Error: HEADER_PROT_ALL      (line:  78, col:   1):	Header protection must include all the instructions
+Error: HEADER_PROT_ALL      (line:  79, col:   1):	Header protection must include all the instructions
+Error: HEADER_PROT_ALL      (line:  80, col:   1):	Header protection must include all the instructions
+Error: HEADER_PROT_ALL      (line:  81, col:   1):	Header protection must include all the instructions
+Error: HEADER_PROT_ALL      (line:  82, col:   1):	Header protection must include all the instructions
+Error: HEADER_PROT_ALL      (line:  83, col:   1):	Header protection must include all the instructions
+Error: HEADER_PROT_ALL      (line:  84, col:   1):	Header protection must include all the instructions
+Error: HEADER_PROT_ALL      (line:  85, col:   1):	Header protection must include all the instructions
+Error: HEADER_PROT_ALL      (line:  86, col:   1):	Header protection must include all the instructions
+Error: HEADER_PROT_ALL      (line:  89, col:   1):	Header protection must include all the instructions
+Error: HEADER_PROT_ALL      (line:  90, col:   1):	Header protection must include all the instructions
+Error: HEADER_PROT_ALL      (line:  91, col:   1):	Header protection must include all the instructions
+Error: HEADER_PROT_ALL      (line:  92, col:   1):	Header protection must include all the instructions
+Error: HEADER_PROT_ALL      (line:  95, col:   1):	Header protection must include all the instructions
+Error: HEADER_PROT_ALL      (line:  96, col:   1):	Header protection must include all the instructions
+Error: HEADER_PROT_ALL      (line:  97, col:   1):	Header protection must include all the instructions
+Error: HEADER_PROT_ALL      (line:  98, col:   1):	Header protection must include all the instructions
+Error: HEADER_PROT_ALL      (line:  99, col:   1):	Header protection must include all the instructions
+Error: HEADER_PROT_ALL      (line: 102, col:   1):	Header protection must include all the instructions
+Error: HEADER_PROT_ALL      (line: 103, col:   1):	Header protection must include all the instructions
+Error: HEADER_PROT_ALL      (line: 104, col:   1):	Header protection must include all the instructions
+Error: HEADER_PROT_ALL      (line: 107, col:   1):	Header protection must include all the instructions
+Error: HEADER_PROT_ALL      (line: 110, col:   1):	Header protection must include all the instructions
+Error: HEADER_PROT_ALL      (line: 111, col:   1):	Header protection must include all the instructions
+Error: HEADER_PROT_ALL      (line: 112, col:   1):	Header protection must include all the instructions
+Error: HEADER_PROT_ALL      (line: 113, col:   1):	Header protection must include all the instructions
+Error: HEADER_PROT_ALL      (line: 116, col:   1):	Header protection must include all the instructions
+Error: HEADER_PROT_ALL      (line: 117, col:   1):	Header protection must include all the instructions
+Error: HEADER_PROT_ALL      (line: 118, col:   1):	Header protection must include all the instructions
+Error: HEADER_PROT_ALL      (line: 119, col:   1):	Header protection must include all the instructions
+Error: HEADER_PROT_ALL      (line: 120, col:   1):	Header protection must include all the instructions
+Error: HEADER_PROT_ALL      (line: 121, col:   1):	Header protection must include all the instructions
+Error: EMPTY_LINE_EOF       (line: 122, col:   1):	Empty line at end of file
+parser.c: Error!
+Error: LINE_TOO_LONG        (line:  46, col:  85):	line too long
+Error: SPACE_AFTER_KW       (line:  58, col:   5):	Missing space after keyword
+Error: SPC_BFR_PAR          (line:  58, col:   7):	Missing space before parenthesis (brace/bracket)
+Error: TOO_MANY_FUNCS       (line:  78, col:   1):	Too many functions in file
+Error: TOO_MANY_FUNCS       (line: 103, col:   1):	Too many functions in file
+Error: TOO_MANY_FUNCS       (line: 122, col:   1):	Too many functions in file
+Error: WRONG_SCOPE_COMMENT  (line: 138, col:   5):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line: 144, col:  26):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line: 144, col:  26):	Comment is invalid in this scope
+Error: LINE_TOO_LONG        (line: 155, col:  63):	line too long
+Error: WRONG_SCOPE_COMMENT  (line: 155, col:  63):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line: 155, col:  63):	Comment is invalid in this scope
+Error: LINE_TOO_LONG        (line: 155, col:  99):	line too long
+Error: TOO_MANY_LINES       (line: 158, col:   1):	Function has more than 25 lines
+Error: TOO_MANY_FUNCS       (line: 160, col:   1):	Too many functions in file
+Error: WRONG_SCOPE_COMMENT  (line: 176, col:   5):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line: 182, col:  26):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line: 182, col:  26):	Comment is invalid in this scope
+Error: TOO_MANY_LINES       (line: 196, col:   1):	Function has more than 25 lines
+Error: TOO_MANY_FUNCS       (line: 198, col:   1):	Too many functions in file
+Error: TOO_MANY_FUNCS       (line: 216, col:   1):	Too many functions in file
+Error: TOO_MANY_FUNCS       (line: 237, col:   1):	Too many functions in file
+Error: TOO_MANY_FUNCS       (line: 251, col:   1):	Too many functions in file
+Error: TOO_MANY_FUNCS       (line: 269, col:   1):	Too many functions in file
+Error: TOO_MANY_FUNCS       (line: 279, col:   1):	Too many functions in file
+Error: TOO_MANY_LINES       (line: 308, col:   1):	Function has more than 25 lines
+tokenizer.c: OK!
+tokenizer_aux1.c: OK!
+vars.c: Error!
+Error: TOO_MANY_LINES       (line:  83, col:   1):	Function has more than 25 lines
+libft/ft_atoi.c: OK!
+libft/ft_bzero.c: OK!
+libft/ft_calloc.c: OK!
+libft/ft_isalnum.c: OK!
+libft/ft_isalpha.c: OK!
+libft/ft_isascii.c: OK!
+libft/ft_isdigit.c: OK!
+libft/ft_isprint.c: OK!
+libft/ft_itoa.c: OK!
+libft/ft_memccpy.c: OK!
+libft/ft_memchr.c: OK!
+libft/ft_memcmp.c: OK!
+libft/ft_memcpy.c: OK!
+libft/ft_memmove.c: OK!
+libft/ft_memset.c: OK!
+libft/ft_putchar_fd.c: OK!
+libft/ft_putendl_fd.c: OK!
+libft/ft_putnbr_fd.c: OK!
+libft/ft_putstr_fd.c: OK!
+libft/ft_split.c: OK!
+libft/ft_split_colons.c: OK!
+libft/ft_split_colons_utils.c: OK!
+libft/ft_strchr.c: OK!
+libft/ft_strcmp.c: OK!
+libft/ft_strdup.c: OK!
+libft/ft_strjoin.c: OK!
+libft/ft_strlcat.c: OK!
+libft/ft_strlcpy.c: OK!
+libft/ft_strlen.c: OK!
+libft/ft_strmapi.c: OK!
+libft/ft_strncmp.c: OK!
+libft/ft_strnstr.c: OK!
+libft/ft_strrchr.c: OK!
+libft/ft_strtrim.c: OK!
+libft/ft_substr.c: OK!
+libft/ft_tolower.c: OK!
+libft/ft_toupper.c: OK!
+libft/get_next_line.c: OK!
+libft/get_next_line_utils.c: OK!
+libft/libft.h: OK!

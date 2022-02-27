@@ -23,11 +23,6 @@ int	is_char_in_set(char c, char *set)
 	return (0);
 }
 
-/*void	reset_temp_str(char *str)
-{
-	*str = '\0';
-}
-*/
 char	*add_str_to_temp(char *str)
 {
 	char	*out;

@@ -6,14 +6,15 @@
 /*   By: aprotoce <aprotoce@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/12 11:37:46 by aprotoce          #+#    #+#             */
-/*   Updated: 2022/02/26 21:49:45 by aprotoce         ###   ########.fr       */
+/*   Updated: 2022/02/27 21:47:00 by aprotoce         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "minishell.h"
 
-void	sigint_handler()
+void	sigint_handler(int code)
 {
+	(void)code;
 	rl_replace_line("", 1);
 	printf("\n["CBW"minishell - vvarussa & aprotoce"RESET"]$ ");
 }

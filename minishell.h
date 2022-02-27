@@ -6,7 +6,7 @@
 /*   By: aprotoce <aprotoce@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/27 14:23:38 by vvarussa          #+#    #+#             */
-/*   Updated: 2022/02/26 21:50:31 by aprotoce         ###   ########.fr       */
+/*   Updated: 2022/02/27 21:52:41 by aprotoce         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -57,9 +57,12 @@ typedef struct s_parse_data
 	int		last_was_pipe;
 }	t_parse_data;
 
-/*main*/
-int				verify_errno(int error_num, int given, char *error_msg);
-
+/*minishell*/
+//void			sigint_handler(int code);
+//void			check_syntax_error(t_node *token_list);
+//void			save_envp_to_dict(t_node **dict, char **envp);
+//int			interior_loop(char *line, t_node **dict);
+//int			main(int argc, char **argv, char **envp);
 
 /*errors*/
 int				verify_errno(int error_num, int given, char *error_msg);
@@ -122,12 +125,20 @@ void			replace_vars_in_token_list(t_node **dict, t_node **list_addr);
 void			assign_var(t_parse_data data);
 
 /*parser*/
+t_parse_data	parse_assigment(t_parse_data data);
+void			process_cmd(t_parse_data data);
 void			parse(t_node *token_list, t_node **dict);
 
 /*parser aux*/
 t_node			*iterate_list(t_node *list, int n);
 t_parse_data	parse_cmd_and_args(t_parse_data data);
 void			print_parse(t_parse_data data);
+
+/*parser input and output*/
+t_parse_data	loop_parse_in(t_parse_data aux, int index);
+t_parse_data	parse_in(t_parse_data data);
+t_parse_data	loop_parse_out(t_parse_data aux, int index);
+t_parse_data	parse_out(t_parse_data data, t_node *other_pipes);
 
 /*nodes*/
 t_node			*find_node(t_node *list, char *str);

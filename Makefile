@@ -4,10 +4,11 @@ CC	= cc
 
 CFLAGS =  -Wall -Werror -Wextra
 
-SRCS	= dict.c tokenizer.c list.c parser.c vars.c \
+SRCS	= dict.c tokenizer.c list.c vars.c \
+		parser_inout.c parse_pipe_hd.c parser_aux.c parser.c parser_nodes.c \
 		envp.c files.c minishell.c builtin_echo.c builtins.c \
-		builtin_exit.c builtin_cd_pwd.c tokenizer_aux1.c parser_nodes.c \
-		parse_pipe_hd.c parser_aux.c dict_env.c dict_setup.c execs.c \
+		builtin_exit.c builtin_cd_pwd.c tokenizer_aux1.c \
+		 dict_env.c dict_setup.c execs.c \
 		list_nodes.c list_free.c errors.c
 
 OBJS	= ${SRCS:.c=.o}

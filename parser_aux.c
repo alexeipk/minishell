@@ -59,3 +59,9 @@ void	print_parse(t_parse_data data)
 	print_str_array(data.args);
 	printf("\n");
 }
+
+void	assign_var(t_parse_data data)
+{
+	change_or_add_value(data.dict, get_key_value(data.assigment->data, 'k'),
+		get_key_value(data.assigment->data, 'v'));
+}

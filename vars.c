@@ -6,7 +6,7 @@
 /*   By: aprotoce <aprotoce@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/30 11:10:20 by vvarussa          #+#    #+#             */
-/*   Updated: 2022/02/26 16:43:49 by aprotoce         ###   ########.fr       */
+/*   Updated: 2022/02/27 21:23:28 by aprotoce         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -51,6 +51,20 @@ char	*replace_vars_in_str(t_node **dict, char *str)
 	return (NULL);
 }
 
+t_node	*free_replace_list(t_node *list, char *temp)
+{
+	free(list->data);
+	list->data = temp;
+	return (list);
+}
+
+t_node	*test_erased(t_node *list, int has_erased)
+{
+	if (!has_erased)
+		list = list->next;
+	return (list);
+}
+
 void	replace_vars_in_token_list(t_node **dict, t_node **list_addr)
 {
 	char	*temp;
@@ -66,8 +80,7 @@ void	replace_vars_in_token_list(t_node **dict, t_node **list_addr)
 			temp = replace_vars_in_str(dict, list->data);
 			if (temp != NULL)
 			{	
-				free(list->data);
-				list->data = temp;
+				list = free_replace_list(list, temp);
 				if (ft_strlen(temp) == 0)
 				{
 					free(list->data);
@@ -77,13 +90,6 @@ void	replace_vars_in_token_list(t_node **dict, t_node **list_addr)
 				}
 			}
 		}
-		if (!has_erased)
-			list = list->next;
+		list = test_erased(list, has_erased);
 	}
-}
-
-void	assign_var(t_parse_data data)
-{
-	change_or_add_value(data.dict, get_key_value(data.assigment->data, 'k'),
-		get_key_value(data.assigment->data, 'v'));
 }

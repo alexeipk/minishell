@@ -20,12 +20,10 @@ void	exit_minishell(t_parse_data data)
 	if (!data.last_was_pipe)
 	{
 		if (data.args[1])
-		{
 			numeroerro = ft_atoi(data.args[1]);
-			free_str_array(data.args);
-			free_dict(data.dict);
-			free_str_array(data.envp);
-			exit(numeroerro);
-		}
+		free_str_array(data.args);
+		free_dict(data.dict);
+		free_str_array(data.envp);
+		exit(numeroerro);
 	}
 }
